@@ -37,3 +37,6 @@ class Test(unittest.TestCase):
         sp.run_case("今天天气不错在家学习！")
         #断言：实际结果，预期结果，错误信息
         self.assertEqual(sp.get_finish_button_text(),self.verificationErrors,msg="验证失败！")
+  
+        
+#setup中的启动APP参数可以单独放在一个App.py的文件中，单独提取出来
