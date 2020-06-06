@@ -40,3 +40,4 @@ class Test(unittest.TestCase):
   
         
 #setup中的启动APP参数可以单独放在一个App.py的文件中，单独提取出来
+#tearDown中的APP退出也可以单独提取到App.py中，减少了代码量
